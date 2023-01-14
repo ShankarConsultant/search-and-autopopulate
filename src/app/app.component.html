@@ -1,0 +1,16 @@
+<style>
+  li.margintop {
+    margin-top: 10px!important;
+  }
+</style>
+<section class="search-section">
+  <label>Search posts</label>
+  <input
+    placeholder="Enter at least 3 character to search"
+    type="search"
+    (keyup)="showSearch($event)"
+  />
+  <div>
+    <ul id="result"></ul>
+  </div>
+</section>
